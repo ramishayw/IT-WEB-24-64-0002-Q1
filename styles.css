@@ -1,0 +1,223 @@
+.navbar {
+    padding: 20px 100px 20px;
+}
+
+.try-free-btn {
+    width: 10%;
+}
+
+.brand-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #3a84f7;
+}
+
+.try-free-btn {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-text .lead {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.email-input {
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 65%;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    padding: 30px;
+    margin-left: 500px;
+}
+
+.btn-primary {
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* Features Section */
+.features-section {
+    padding: 50px 0;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333; 
+}
+
+.feature-card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 30px;
+    height: 320px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.feature-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.features-image {
+    max-width: 160px; 
+    margin-top: 10px; 
+}
+
+.feature-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    font-size: 11px;
+    color: #777; 
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.feature-card:nth-child(1) .feature-title, .feature-card:nth-child(1) .feature-description {
+    color: #fff;
+}
+
+.feature-card:nth-child(1) {
+    background-color: #585cfc; 
+}
+
+.feature-card:nth-child(2) {
+    background-color: #f0f4fc;
+}
+
+.feature-card:nth-child(3) {
+    background-color: #ffe4ac; 
+}
+
+/* Task management section */
+.task-management-section {
+    padding: 50px 0;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.task-management-section .lead {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+.task-management-section .lead, .task-management-section .section-title {
+    text-align: left;
+}
+
+.task-management-image {
+    max-width: 100%;
+    height: auto;
+    padding: 30px;
+    margin-right: 500px;
+}
+
+/* Workflow Section */
+.workflow-section {
+    padding: 50px 0;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.workflow-image {
+    max-width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.workflow-section .lead, .workflow-section .section-title {
+    text-align: left;
+    margin: 50px;
+}
+
+.workflow-section .lead {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Trust us section */
+.trust-us-section {
+    padding: 50px 0;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.trust-us-section h2 {
+    font-size: 7rem;
+    font-weight: 700;
+    color: #585cfc;
+}
+
+.person-image img {
+    max-width: 55%;
+    height: auto;
+}
+
+.person-image:nth-child(1) {
+    margin-top: -170px;
+}
+
+.person-image:nth-child(3) {
+    margin-top: 170px;
+}
+
+.trust-us-content {
+    height: 400px;
+}
+
+/* Footer section */
+.footer-section {
+    padding: 100px 0;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border-top: 1px solid #a7a7a7;
+}
+
+.footer-description {
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.footer-form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-input-form {
+    width: 30%;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
